@@ -1,22 +1,78 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+int main(){
 
-    return 0;
+  char estado ='A';
+
+  char codigo [20] = "01";
+
+  char cidade [20] = "Joao pessoa";
+
+  int populacao = 1531990;
+
+  float area = 118931;
+
+  float pib = 83570112431;
+
+  int pontos = 54;
+
+  
+
+  printf("Carta 1\n");
+
+  printf("Estado: %c\n", estado);
+
+  printf("Código: %s\n", codigo);
+
+  printf("Nome da Cidade: %s\n", cidade);
+
+  printf("Populacao: %d\n", populacao);
+
+  printf("Área: %f\n", area);
+
+  printf("PIB: %f\n", pib);
+
+  printf("Pontos turísticos: %d\n\n", pontos);
+
+
+
+
+
+
+
+  char estado2 ='B';
+
+  char codigo2[20] = "02";
+
+  char cidade2[20] = "Maceio";
+
+  int populacao2 = 7358523;
+
+  float area2 = 234567;
+
+  float pib2 = 64234258482;
+
+  int pontos2 = 68;
+
+  
+
+  printf("Carta 2\n");
+
+  printf("Estado: %c\n", estado2);
+
+  printf("Código: %s\n", codigo2);
+
+  printf("Nome da Cidade: %s\n", cidade2);
+
+  printf("Populacao: %d\n", populacao2);
+
+  printf("Área: %f\n", area2);
+
+  printf("PIB: %f\n", pib2);
+
+  printf("Pontos turísticos: %d", pontos2);
+
+
+
 }
